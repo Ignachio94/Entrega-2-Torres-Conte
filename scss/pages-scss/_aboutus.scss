@@ -1,0 +1,22 @@
+
+.team-section {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+}
+.team-card {
+  background: #fcecee;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px #f1c2e67b;
+  padding: 20px;
+  min-width: 220px;
+}
+.team-card .name {
+  font-weight: bold;
+  color: #bf3188;
+}
+.team-card .role {
+  font-size: 1rem;
+  color: #ad4682;
+}
+.section-main { background-color:#f5ecf2}  

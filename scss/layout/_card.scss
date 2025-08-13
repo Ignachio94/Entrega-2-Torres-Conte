@@ -1,0 +1,28 @@
+.cards-section {
+  background: #fff;
+  padding: 32px 0;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  gap: 26px;
+  margin-bottom: 30px;
+}
+.card {
+  background: #fcf7fa;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 0 2px 0 #ecdade;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.card .price {
+  color: #c3538c;
+  font-weight: bold;
+}
+.card .button {
+  margin-top: 5px;
+  align-self: flex-start;
+  align-items: flex-end;
+}
